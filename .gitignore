@@ -1,0 +1,25 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Prisma generated artifacts
+node_modules/.prisma/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
